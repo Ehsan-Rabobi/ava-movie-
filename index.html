@@ -1,0 +1,1185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'
+      rel='stylesheet'>
+    <link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/min/style.css">
+    <link rel="website icon" type="png" href="image/20231015_191626_0000.png">
+    <title>... </title>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <div class="close"><i class='bx bx-x'></i></div>
+        <div class="link">
+          <p>To join the Telegram channel <a href="#">Click</a></p>
+        </div>
+        <div class="empty"></div>
+      </div>
+
+      <div id="carouselExampleInterval" class="carousel slide"
+        data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex gap-5">
+              <h3
+              class="animate__flash animate__animated animate__infinite	infinite" id="logo">ASA
+                movie</h3>
+              <button class="navbar-toggler" type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link " aria-current="page" href="#">Play
+                      Online</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Artists</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button"
+                      data-bs-toggle="dropdown" aria-expanded="false">
+                      Categories
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link " href="#">Buy a Subscription</a>
+                  </li>
+                </ul>
+                <button id="openin" class="btn ">sign in</button>
+                <button id="openup" class="btn ">sign up</button>
+              </div>
+            </div>
+          </nav>
+          <div class="signin hidden">
+            <div class="right">
+              <i class='bx bx-x' id="closesignin"></i>
+              <h2>Register on the site</h2>
+              <input type="text" placeholder=" user name">
+              <p>Username must be more than 8 characters</p>
+              <input type="email" placeholder=" address email">
+              <p> does not and should not be written at the beginning</p>
+              <input type="password" placeholder=" password">
+              <p></p>
+              <input type="password" placeholder=" repeat the password">
+              <p>The password must have at least 10 characters</p>
+              <input type="number" placeholder=" number phone">
+              <a href="#">Register</a>
+            </div>
+          </div>
+          <div class="signup hidden">
+            <div class="right">
+              <i class='bx bx-x' id="closesignup"></i>
+              <h2>Enter on the site</h2>
+              <input type="text" placeholder=" user name">
+              <p>Username must be more than 8 characters</p>
+              <input type="email" placeholder=" address email or phone">
+              <p> does not and should not be written at the beginning</p>
+              <input type="number" placeholder=" number phone">
+              <a href="#">Enter</a>
+            </div>
+          </div>
+        </div>
+        <div class="banner">
+          <div class="slider-res">
+            <img src="image/20.jpg" class="active" alt />
+            <img src="image/21.jpg" alt />
+            <img src="image/22.jpg" alt />
+            <img src="image/23.jpg" alt />
+            <img src="image/24.jpg" alt />
+            <img src="image/25.jpg" alt />
+            <i class='bx bx-right-arrow-alt' id="right"></i>
+            <i class='bx bx-left-arrow-alt' id="left"></i>
+          </div>
+          <div id="slide">
+            <div class="item"
+              style="background-image: url(image/c.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
+              <div class="content">
+                <div class="name">Rocky</div>
+                <div class="des"> IMBD</div>
+                <p>7.8 <sub>/10</sub></p>
+              </div>
+            </div>
+            <div class="item"
+              style="background-image: url(image/25.jpg);  background-position: center; background-repeat: no-repeat; background-size: cover;">
+              <div class="content">
+                <div class="name">Spider Man</div>
+                <div class="des"> IMBD</div>
+                <p>7.8 <sub>/10</sub></p>
+              </div>
+            </div>
+            <div class="item"
+              style="background-image: url(image/i.jpg);  background-position: center; background-repeat: no-repeat; background-size: cover;">
+              <div class="content">
+                <div class="name">Harley Quinn</div>
+                <div class="des"> IMBD</div>
+                <p>7.8 <sub>/10</sub></p>
+              </div>
+            </div>
+            <div class="item"
+              style="background-image: url(image/23.jpg);  background-position: center; background-repeat: no-repeat; background-size: cover;">
+              <div class="content">
+                <div class="name">John Wick</div>
+                <div class="des"> IMBD</div>
+                <p>7.8 <sub>/10</sub></p>
+              </div>
+            </div>
+            <div class="item"
+              style="background-image: url(image/27.jpeg);  background-position: center; background-repeat: no-repeat; background-size: cover;">
+              <div class="content">
+                <div class="name">Guardians</div>
+                <div class="des"> IMBD</div>
+                <p>7.8 <sub>/10</sub></p>
+              </div>
+            </div>
+            <div class="item"
+              style="background-image: url(image/28.jpeg);  background-position: 'center'; background-repeat: no-repeat; background-size: cover;">
+              <div class="content">
+                <div class="name"> Money Hiest</div>
+                <div class="des"> IMBD</div>
+                <p>7.8 <sub>/10</sub></p>
+              </div>
+            </div>
+          </div>
+          <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-chevron-right"></i></button>
+            <button id="next"><i class="fa-solid fa-chevron-left"></i></button>
+          </div>
+        </div>
+
+      </div>
+      <div class="overlay hidden"></div>
+    </header>
+    <main>
+
+      <div id="filter">
+
+          <div class="search">
+            <a href="#">Search</a>
+          </div>
+          <div class="advanced-filter" id="advanced">
+            <button type="submit"><i class='bx bx-cog bx-rotate-90'></i>Advanced
+              Filter</button>
+          </div>
+          <div class="double">
+            <div class="toggle-container">
+              <input type="checkbox" id="good" class="toggle">
+              <label for="good" class="label">
+                <div class="ball"></div>
+              </label>
+              <span>Double</span>
+            </div>
+
+            <div class="toggle-container">
+              <input type="checkbox" id="cheap" class="toggle">
+              <label for="cheap" class="label">
+                <div class="ball"></div>
+              </label>
+              <span>Subtitle</span>
+            </div>
+
+            <div class="toggle-container">
+              <input type="checkbox" id="fast" class="toggle">
+              <label for="fast" class="label">
+                <div class="ball"></div>
+              </label>
+              <span>Cencorship</span>
+            </div>
+          </div>
+          <div class="choose">
+            <div class="dropdown">
+              <a class="btn dropdown-toggle"
+                style="width: 150px; height: 50px; display: flex; align-items: center; justify-content: center;"
+                href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Genre
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Animition</a></li>
+                <li><a class="dropdown-item" href="#">Biography</a></li>
+                <li><a class="dropdown-item" href="#">Historical</a></li>
+                <li><a class="dropdown-item" href="#">Scary</a></li>
+                <li><a class="dropdown-item" href="#">Criminal</a></li>
+                <li><a class="dropdown-item" href="#">War</a></li>
+                <li><a class="dropdown-item" href="#">Family</a></li>
+                <li><a class="dropdown-item" href="#">News</a></li>
+                <li><a class="dropdown-item" href="#">Drama</a></li>
+                <li><a class="dropdown-item" href="#">Romantic</a></li>
+                <li><a class="dropdown-item" href="#">Comedy</a></li>
+                <li><a class="dropdown-item" href="#">Doucumentary</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="all">
+            <div class="btn-group" role="group"
+              aria-label="Basic radio toggle button group">
+              <input type="radio" class="btn-check" name="btnradio"
+                id="btnradio1" autocomplete="off" checked>
+              <label class="btn btn-outline-secondary" for="btnradio1"
+                style="width: 90px; height: 50px; display: flex; align-items: center; justify-content: center;">Film</label>
+
+              <input type="radio" class="btn-check" name="btnradio"
+                id="btnradio2" autocomplete="off">
+              <label class="btn btn-outline-secondary" for="btnradio2"
+                style="width: 90px; height: 50px; display: flex; align-items: center; justify-content: center;">Serial</label>
+
+              <input type="radio" class="btn-check" name="btnradio"
+                id="btnradio3" autocomplete="off">
+              <label class="btn btn-outline-secondary" for="btnradio3"
+                style="width: 90px; height: 50px; display: flex; align-items: center; justify-content: center;">
+                All </label>
+            </div>
+          </div>
+      </div>
+      <div class="modal-filter light">
+        <div class="modal-top">
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              View Order
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Network
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Language
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Quality
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Ages
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Country
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Score
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+              <li><a class="dropdown-item" href="#">lorem</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="modal-bottom">
+          <div class="id">
+            <input type="text" placeholder="Id IMBD Example :25643">
+          </div>
+          <div class="D">
+            <input type="checkbox" id="DD" class="toggle">
+            <label for="DD" class="label">
+              <div class="ball"></div>
+            </label>
+            <span>3D</span>
+          </div>
+          <div class="k">
+            <input type="checkbox" id="KK" class="toggle">
+            <label for="KK" class="label">
+              <div class="ball"></div>
+            </label>
+            <span>4K</span>
+          </div>
+          <div class="point">
+            <div class="o1">
+              <input type="text" placeholder="point IMBD">
+            </div>
+            to
+            <div class="o2">
+              <input type="text" placeholder="pint IMBD">
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="info tt ">
+        <h2>The Most Popular Of 2023</h2>
+        <div class="info-item tt ">
+          <div class="info-card">
+            <div class="image">
+              <img src="image/94.jpg" alt>
+              <div class="content">
+                <div class="top">
+                  <p>Lorem ipsum, dolor sit amet consectetur Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet
+                  </p>
+                  <div class="a">
+                    <a href="#">Action</a>
+                    <a href="#">sport</a>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <h5><p>IMBD</p> <span>8.5 <sub>/10</sub></span></h5>
+                  <h4>WITCHER <span>2023</span></h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="image">
+              <img src="image/95.jpg" alt>
+              <div class="content">
+                <div class="top">
+                  <p>Lorem ipsum, dolor sit amet consectetur Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet
+                  </p>
+                  <div class="a">
+                    <a href="#">Action</a>
+                    <a href="#">sport</a>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <h5><p>IMBD</p> <span>8.5 <sub>/10</sub></span></h5>
+                  <h4>SILO <span>2023</span></h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="image">
+              <img src="image/96.jpg" alt>
+              <div class="content">
+                <div class="top">
+                  <p>Lorem ipsum, dolor sit amet consectetur Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet
+                  </p>
+                  <div class="a">
+                    <a href="#">Action</a>
+                    <a href="#">sport</a>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <h5><p>IMBD</p> <span>8.5 <sub>/10</sub></span></h5>
+                  <h4>H /JACK <span> 2023</span></h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="image">
+              <img src="image/97.jpg" alt>
+              <div class="content">
+                <div class="top">
+                  <p>Lorem ipsum, dolor sit amet consectetur Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet
+                  </p>
+                  <div class="a">
+                    <a href="#">Action</a>
+                    <a href="#">sport</a>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <h5><p>IMBD</p> <span>8.5 <sub>/10</sub></span></h5>
+                  <h4>Extraction 2 <span>2023</span></h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="image">
+              <img src="image/98.jpg" alt>
+              <div class="content">
+                <div class="top">
+                  <p>Lorem ipsum, dolor sit amet consectetur Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet
+                  </p>
+                  <div class="a">
+                    <a href="#">Action</a>
+                    <a href="#">sport</a>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <h5><p>IMBD</p> <span>8.5 <sub>/10</sub></span></h5>
+                  <h4>INVASION <span>2023</span></h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+          <div class="info-card">
+            <div class="image">
+              <img src="image/99.jpg" alt>
+              <div class="content">
+                <div class="top">
+                  <p>Lorem ipsum, dolor sit amet consectetur Lorem
+                    ipsum dolor sit amet. Lorem ipsum dolor sit
+                    amet. Lorem ipsum dolor sit amet
+                  </p>
+                  <div class="a">
+                    <a href="#">Action</a>
+                    <a href="#">sport</a>
+                  </div>
+                </div>
+                <div class="bottom">
+                  <h5><p>IMBD</p> <span>8.5 <sub>/10</sub></span></h5>
+                  <h4>TRANSFORM... <span>2023</span></h4>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div id="fix">
+          <div class="fix-left">
+            <div class="app">
+              <p title="Download the application"><i class='bx bxl-android'></i>
+                <span>Download
+                  the application</span></p>
+            </div>
+            <div class="tele">
+              <p><i class='bx bxl-telegram'></i></p>
+              <p><i class='bx bxl-instagram-alt'></i></p>
+            </div>
+          </div>
+          <div class="center">
+          </div>
+          <div class="fix-right">
+            <p>Buy a subscription</p>
+            <p>Questions</p>
+            <p>Rules</p>
+            <p>Contact us</p>
+            <p><a href="#"><i class='bx bx-chevron-up'></i></a></p>
+          </div>
+        </div>
+      </main>
+      <section id="film">
+        <div class="film-item tt ">
+          <div class="item-left tt ">
+            <div class="item-card tt">
+              <div class="card-top">
+                <p>Gray Matter</p>
+                <p><i class='bx bxs-bookmark'></i></p>
+              </div>
+              <div class="card-center">
+                <div class="center-left">
+                  <img src="image/100.jpg" alt>
+                </div>
+                <div class="center-center">
+                  <ul>
+                    <li><i class='bx bx-film'></i><span>Genre :</span> action ,
+                      animition , ...</li>
+                    <li><i class='bx bx-calendar'></i><span>Production Year :</span>
+                      2023 </li>
+                    <li><i class='bx bx-time-five'></i><span>Time :</span> 93
+                      minute</li>
+                    <li><i class='bx bx-world'></i><span>The Product :</span>
+                      america</li>
+                    <li><i class='bx bxs-user'></i><span>Director :</span> Alex
+                      Proyas </li>
+                    <li><i class='bx bx-male-female'></i><span>Stras :</span>
+                      Bruce Spence , Colin Friels , Ian </li>
+                  </ul>
+                </div>
+                <div class="center-right">
+                  <div class="number">
+                    <div class="number1">
+                      <div class="p">
+                        <h5>IMBD</h5>
+                        <p>8.6 <sub>/10</sub></p>
+                      </div>
+                      <h6>2365 vote</h6>
+                    </div>
+                    <div class="number2">
+                      <h5>ASA movie</h5>
+                      <div>
+                        <!-- <p>2.5</p> -->
+                        <h6>2 vote</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-down">
+                <p><i class='bx bx-edit'></i> <span>Synopsis :</span> A mistake
+                  in the delivery of a dish of food leads to the formation of a
+                  relationship between a lonely man and a housewife. In the
+                  following, these two characters talk to each other through the
+                  notes they leave in the food dish and...</p>
+                <a href="#"> more / download</a>
+              </div>
+            </div>
+            <div class="item-card tt">
+              <div class="card-top">
+                <p>Gray Matter</p>
+                <p><i class='bx bxs-bookmark'></i></p>
+              </div>
+              <div class="card-center">
+                <div class="center-left">
+                  <img src="image/101.PNG" alt>
+                </div>
+                <div class="center-center">
+                  <ul>
+                    <li><i class='bx bx-film'></i><span>Genre :</span> action ,
+                      animition , ...</li>
+                    <li><i class='bx bx-calendar'></i><span>Production Year :</span>
+                      2023 </li>
+                    <li><i class='bx bx-time-five'></i><span>Time :</span> 93
+                      minute</li>
+                    <li><i class='bx bx-world'></i><span>The Product :</span>
+                      america</li>
+                    <li><i class='bx bxs-user'></i><span>Director :</span> Alex
+                      Proyas </li>
+                    <li><i class='bx bx-male-female'></i><span>Stras :</span>
+                      Bruce Spence , Colin Friels , Ian </li>
+                  </ul>
+                </div>
+                <div class="center-right">
+                  <div class="number">
+                    <div class="number1">
+                      <div class="p">
+                        <h5>IMBD</h5>
+                        <p>8.6 <sub>/10</sub></p>
+                      </div>
+                      <h6>2365 vote</h6>
+                    </div>
+                    <div class="number2">
+                      <h5>ASA movie</h5>
+                      <div>
+                        <!-- <p>2.5</p> -->
+                        <h6>2 vote</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-down">
+                <p><i class='bx bx-edit'></i> <span>Synopsis :</span> A mistake
+                  in the delivery of a dish of food leads to the formation of a
+                  relationship between a lonely man and a housewife. In the
+                  following, these two characters talk to each other through the
+                  notes they leave in the food dish and...</p>
+                <a href="#"> more / download</a>
+              </div>
+            </div>
+            <div class="item-card tt">
+              <div class="card-top">
+                <p>Gray Matter</p>
+                <p><i class='bx bxs-bookmark'></i></p>
+              </div>
+              <div class="card-center">
+                <div class="center-left">
+                  <img src="image/102.PNG" alt>
+                </div>
+                <div class="center-center">
+                  <ul>
+                    <li><i class='bx bx-film'></i><span>Genre :</span> action ,
+                      animition , ...</li>
+                    <li><i class='bx bx-calendar'></i><span>Production Year :</span>
+                      2023 </li>
+                    <li><i class='bx bx-time-five'></i><span>Time :</span> 93
+                      minute</li>
+                    <li><i class='bx bx-world'></i><span>The Product :</span>
+                      america</li>
+                    <li><i class='bx bxs-user'></i><span>Director :</span> Alex
+                      Proyas </li>
+                    <li><i class='bx bx-male-female'></i><span>Stras :</span>
+                      Bruce Spence , Colin Friels , Ian </li>
+                  </ul>
+                </div>
+                <div class="center-right">
+                  <div class="number">
+                    <div class="number1">
+                      <div class="p">
+                        <h5>IMBD</h5>
+                        <p>8.6 <sub>/10</sub></p>
+                      </div>
+                      <h6>2365 vote</h6>
+                    </div>
+                    <div class="number2">
+                      <h5>ASA movie</h5>
+                      <div>
+                        <!-- <p>2.5</p> -->
+                        <h6>2 vote</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-down">
+                <p><i class='bx bx-edit'></i> <span>Synopsis :</span> A mistake
+                  in the delivery of a dish of food leads to the formation of a
+                  relationship between a lonely man and a housewife. In the
+                  following, these two characters talk to each other through the
+                  notes they leave in the food dish and...</p>
+                <a href="#"> more / download</a>
+              </div>
+            </div>
+            <div class="item-card tt">
+              <div class="card-top">
+                <p>Gray Matter</p>
+                <p><i class='bx bxs-bookmark'></i></p>
+              </div>
+              <div class="card-center">
+                <div class="center-left">
+                  <img src="image/103.PNG" alt>
+                </div>
+                <div class="center-center">
+                  <ul>
+                    <li><i class='bx bx-film'></i><span>Genre :</span> action ,
+                      animition , ...</li>
+                    <li><i class='bx bx-calendar'></i><span>Production Year :</span>
+                      2023 </li>
+                    <li><i class='bx bx-time-five'></i><span>Time :</span> 93
+                      minute</li>
+                    <li><i class='bx bx-world'></i><span>The Product :</span>
+                      america</li>
+                    <li><i class='bx bxs-user'></i><span>Director :</span> Alex
+                      Proyas </li>
+                    <li><i class='bx bx-male-female'></i><span>Stras :</span>
+                      Bruce Spence , Colin Friels , Ian </li>
+                  </ul>
+                </div>
+                <div class="center-right">
+                  <div class="number">
+                    <div class="number1">
+                      <div class="p">
+                        <h5>IMBD</h5>
+                        <p>8.6 <sub>/10</sub></p>
+                      </div>
+                      <h6>2365 vote</h6>
+                    </div>
+                    <div class="number2">
+                      <h5>ASA movie</h5>
+                      <div>
+                        <!-- <p>2.5</p> -->
+                        <h6>2 vote</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-down">
+                <p><i class='bx bx-edit'></i> <span>Synopsis :</span> A mistake
+                  in the delivery of a dish of food leads to the formation of a
+                  relationship between a lonely man and a housewife. In the
+                  following, these two characters talk to each other through the
+                  notes they leave in the food dish and...</p>
+                <a href="#"> more / download</a>
+              </div>
+            </div>
+            <div class="item-card tt">
+              <div class="card-top">
+                <p>Gray Matter</p>
+                <p><i class='bx bxs-bookmark'></i></p>
+              </div>
+              <div class="card-center">
+                <div class="center-left">
+                  <img src="image/104.PNG" alt>
+                </div>
+                <div class="center-center">
+                  <ul>
+                    <li><i class='bx bx-film'></i><span>Genre :</span> action ,
+                      animition , ...</li>
+                    <li><i class='bx bx-calendar'></i><span>Production Year :</span>
+                      2023 </li>
+                    <li><i class='bx bx-time-five'></i><span>Time :</span> 93
+                      minute</li>
+                    <li><i class='bx bx-world'></i><span>The Product :</span>
+                      america</li>
+                    <li><i class='bx bxs-user'></i><span>Director :</span> Alex
+                      Proyas </li>
+                    <li><i class='bx bx-male-female'></i><span>Stras :</span>
+                      Bruce Spence , Colin Friels , Ian </li>
+                  </ul>
+                </div>
+                <div class="center-right">
+                  <div class="number">
+                    <div class="number1">
+                      <div class="p">
+                        <h5>IMBD</h5>
+                        <p>8.6 <sub>/10</sub></p>
+                      </div>
+                      <h6>2365 vote</h6>
+                    </div>
+                    <div class="number2">
+                      <h5>ASA movie</h5>
+                      <div>
+                        <!-- <p>2.5</p> -->
+                        <h6>2 vote</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-down">
+                <p><i class='bx bx-edit'></i> <span>Synopsis :</span> A mistake
+                  in the delivery of a dish of food leads to the formation of a
+                  relationship between a lonely man and a housewife. In the
+                  following, these two characters talk to each other through the
+                  notes they leave in the food dish and...</p>
+                <a href="#"> more / download</a>
+              </div>
+            </div>
+            <div class="item-card tt">
+              <div class="card-top">
+                <p>Gray Matter</p>
+                <p><i class='bx bxs-bookmark'></i></p>
+              </div>
+              <div class="card-center">
+                <div class="center-left">
+                  <img src="image/105.PNG" alt>
+                </div>
+                <div class="center-center">
+                  <ul>
+                    <li><i class='bx bx-film'></i><span>Genre :</span> action ,
+                      animition , ...</li>
+                    <li><i class='bx bx-calendar'></i><span>Production Year :</span>
+                      2023 </li>
+                    <li><i class='bx bx-time-five'></i><span>Time :</span> 93
+                      minute</li>
+                    <li><i class='bx bx-world'></i><span>The Product :</span>
+                      america</li>
+                    <li><i class='bx bxs-user'></i><span>Director :</span> Alex
+                      Proyas </li>
+                    <li><i class='bx bx-male-female'></i><span>Stras :</span>
+                      Bruce Spence , Colin Friels , Ian </li>
+                  </ul>
+                </div>
+                <div class="center-right">
+                  <div class="number">
+                    <div class="number1">
+                      <div class="p">
+                        <h5>IMBD</h5>
+                        <p>8.6 <sub>/10</sub></p>
+                      </div>
+                      <h6>2365 vote</h6>
+                    </div>
+                    <div class="number2">
+                      <h5>ASA movie</h5>
+                      <div>
+                        <!-- <p>2.5</p> -->
+                        <h6>2 vote</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-down">
+                <p><i class='bx bx-edit'></i> <span>Synopsis :</span> A mistake
+                  in the delivery of a dish of food leads to the formation of a
+                  relationship between a lonely man and a housewife. In the
+                  following, these two characters talk to each other through the
+                  notes they leave in the food dish and...</p>
+                <a href="#"> more / download</a>
+              </div>
+            </div>
+            <div class="item-card tt">
+              <div class="card-top">
+                <p>Gray Matter</p>
+                <p><i class='bx bxs-bookmark'></i></p>
+              </div>
+              <div class="card-center">
+                <div class="center-left">
+                  <img src="image/106.jpg" alt>
+                </div>
+                <div class="center-center">
+                  <ul>
+                    <li><i class='bx bx-film'></i><span>Genre :</span> action ,
+                      animition , ...</li>
+                    <li><i class='bx bx-calendar'></i><span>Production Year :</span>
+                      2023 </li>
+                    <li><i class='bx bx-time-five'></i><span>Time :</span> 93
+                      minute</li>
+                    <li><i class='bx bx-world'></i><span>The Product :</span>
+                      america</li>
+                    <li><i class='bx bxs-user'></i><span>Director :</span> Alex
+                      Proyas </li>
+                    <li><i class='bx bx-male-female'></i><span>Stras :</span>
+                      Bruce Spence , Colin Friels , Ian </li>
+                  </ul>
+                </div>
+                <div class="center-right">
+                  <div class="number">
+                    <div class="number1">
+                      <div class="p">
+                        <h5>IMBD</h5>
+                        <p>8.6 <sub>/10</sub></p>
+                      </div>
+                      <h6>2365 vote</h6>
+                    </div>
+                    <div class="number2">
+                      <h5>ASA movie</h5>
+                      <div>
+                        <!-- <p>2.5</p> -->
+                        <h6>2 vote</h6>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card-down">
+                <p><i class='bx bx-edit'></i> <span>Synopsis :</span> A mistake
+                  in the delivery of a dish of food leads to the formation of a
+                  relationship between a lonely man and a housewife. In the
+                  following, these two characters talk to each other through the
+                  notes they leave in the food dish and...</p>
+                <a href="#"> more / download</a>
+              </div>
+            </div>
+          </div>
+          <div class="item-right tt">
+            <div class="right1 tt">
+              <div class="archive">
+                <div class="mic"><i class='bx bxs-microphone'><sup>EN</sup></i></div>
+                <div class="arch"><span>Archive </span> <br> <p>of dubbing
+                    movies</p></div>
+                <div class="arch-enter"><p>Enter the Archive</p></div>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="image/105.PNG" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/109.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/108.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/107.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/106.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/110.PNG" />
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- <div class="swiper-pagination"></div> -->
+              </div>
+            </div>
+            <div class="right2 tt">
+              <div class="heading-right2">
+                <div class="update">
+                  <p><i class='bx bx-tv'></i></p>
+                  <h5>Updated series</h5>
+                </div>
+                <div class="arch">
+                  <p>Enter the Archive</p>
+                </div>
+              </div>
+              <div class="ser">
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/200.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/201.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/202.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/203.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/204.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/205.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/206.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/207.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/208.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+                <div class="series-other">
+                  <a href="#">
+                    <img src="image/209.jpg" alt>
+                    <p>Chapter 4 - Episode 12 was added.</p>
+                  </a>
+                </div>
+              </div>
+
+            </div>
+            <div class="right1 tt">
+              <div class="archive">
+                <div class="mic"><i class='bx bxs-microphone'><sup>EN</sup></i></div>
+                <div class="arch"><span>Archive </span> <br> <p>of dubbing
+                    movies</p></div>
+                <div class="arch-enter"><p>Enter the Archive</p></div>
+              </div>
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <img src="image/111.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/112.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/113.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/114.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/115.jpg" />
+                  </div>
+                  <div class="swiper-slide">
+                    <img src="image/116.jpg" />
+                  </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <!-- <div class="swiper-pagination"></div> -->
+              </div>
+            </div>
+            <div class="right1 tt" style="min-height: 500px ;">
+              <div class="archive">
+                <div class="mic"><i class='bx bxs-folder'></i></div>
+                <div class="arch"><span>Archive </span> <br> <p>of movies</p></div>
+                <!-- <div class="arch-enter"><p>Enter the Archive</p></div> -->
+              </div>
+              <div class="list tt">
+                <div class="l">
+                  <ul>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Action</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Animition</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Biography</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Scary</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Criminal</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">War</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Family</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">News</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Drama</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Romantic</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Comedy</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Doucumentary</a></li>
+                  </ul>
+                </div>
+                <div class="r">
+                  <ul>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">News</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Doucumentary</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Romantic</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Scary</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Criminal</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">War</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Family</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Action</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Drama</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Biography</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Comedy</a></li>
+                    <li><i class='bx bxs-right-arrow'></i><a href="#">Animition</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer>
+        <div class="f-left">
+          <div class="dropup">
+            <a class="btn dropdown-toggle"
+              style=" display: flex; align-items: center; justify-content: center;"
+              href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              app / channel
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href=""><i class="bx bxl-telegram"></i></a></li>
+              <li><a class="dropdown-item" href=""><i class='bx bxl-instagram-alt'></i></a></li>
+              <li><a class="dropdown-item" href=""><i class='bx bxl-android'></i></a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="f-center">
+          <p><a href="#"><i class='bx bx-chevron-up'></i></a></p>
+        </div>
+        <div class="f-right">
+          <div class="dropup">
+            <a class="btn dropdown-toggle"
+              style=" display: flex; align-items: center; justify-content: center;"
+              href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              app / channel
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="">Contact us</a></li>
+              <li><a class="dropdown-item" href="">Rules</a></li>
+              <li><a class="dropdown-item" href="">Question</a></li>
+              <li><a class="dropdown-item" href=""><small>Buy a subscription
+
+              </small></a></li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="js/script.js"></script>
+    </body>
+  </html>
